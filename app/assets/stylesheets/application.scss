@@ -1,0 +1,64 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#comprar h1 {
+  font-size: 2em;
+}
+#destacados {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#footer {
+  padding: 3em 0;
+  background-color: rgb(107,107,107);
+}
+#footer h1 {
+  font-size: 1em;
+  color: white;
+}
+#footer a {
+  color: rgb(71,33,102);
+}
+#img-head {
+  margin-top: 1em;
+}
+#nosotros h1 {
+  font-size: 2em;
+}
+#sucursales h1 {
+  font-size: 2em;
+}
+#sucursales h2 {
+  font-size: 1.5em;
+}
+#sucursales h3 {
+  font-size: 1em;
+}
+#sucursales img {
+  padding-bottom: 2em;
+}
+#tecnico img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#tecnico h1 {
+  font-size: 2em;
+}
+
+
+.navbar-brand img {
+  margin-top: -1.3em;
+  padding-right: -4em;
+}
+
+.navbar-default {
+  border: none;
+  background-color: rgb(71,33,102);
+  border-radius: 3px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgb(236,236,236);
+}
