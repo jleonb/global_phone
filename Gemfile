@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
+gem "paperclip", "~> 5.0.0"
 
 group :production do
   gem 'pg',             '0.17.1'

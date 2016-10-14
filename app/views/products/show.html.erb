@@ -1,39 +1,42 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
+  <div class="col-sm-3">
+    <%= render 'partials/lateral' %>  
+  </div>
+  <div class="col-sm-9">
+    
+          <div class="col-sm-5" >            
+             <%= image_tag @product.image.url(:medium), :class => "img-responsive center-block img-frame" %>
+          </div>
+          <div class="col-sm-4">
+              <p>
+                <strong>Nombre:</strong>
+              <%= @product.title %>
+              </p>
+              
+              <p>
+                <strong>Precio:</strong>
+                <%= @product.price %>
+              </p>
+            
+              <p>
+                <strong>Categoría:</strong>
+                <%= @product.category %>
+              </p>
 
-<p>
-  <strong>Image:</strong>
-  <%= @product.image %>
-</p>
+              <p>
+                <strong>Marca:</strong>
+                <%= @product.brand %>
+              </p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @product.title %>
-</p>
+              <p>
+                <strong>Descripción:</strong>
+                <%= @product.description %>
+              </p>
 
-<p>
-  <strong>Price:</strong>
-  <%= @product.price %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @product.category %>
-</p>
-
-<p>
-  <strong>Brand:</strong>
-  <%= @product.brand %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p>
-
-<p>
-  <strong>Subcategory:</strong>
-  <%= @product.subcategory %>
-</p>
+          </div>
+    
+  </div>
+</div>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
