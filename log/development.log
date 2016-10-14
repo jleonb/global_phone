@@ -754,3 +754,86 @@ Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b
 
 
 Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-10 23:08:44 -0300
+
+
+Started GET "/" for ::1 at 2016-10-13 21:33:37 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PageController#inicio as HTML
+  Rendered page/inicio.html.erb within layouts/application (2.3ms)
+  Rendered partials/_menu.html.erb (9.9ms)
+  Rendered partials/_footer.html.erb (0.9ms)
+Completed 200 OK in 444ms (Views: 433.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8d68dcb7ffe63adebe13fe88f1ae1d9131240ff9a48ddc9b86014f1de95c0b15.css?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/application.min.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-13 21:33:37 -0300
+
+
+Started GET "/" for ::1 at 2016-10-13 21:36:31 -0300
+Processing by PageController#inicio as HTML
+  Rendered page/inicio.html.erb within layouts/application (1.7ms)
+  Rendered partials/_menu.html.erb (1.0ms)
+  Rendered partials/_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8d68dcb7ffe63adebe13fe88f1ae1d9131240ff9a48ddc9b86014f1de95c0b15.css?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/application.min.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-13 21:36:31 -0300
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-13 21:36:32 -0300
+
+
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-10-13 21:36:32 -0300
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for ::1 at 2016-10-13 21:36:32 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-13 21:36:32 -0300
